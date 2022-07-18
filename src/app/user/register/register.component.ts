@@ -68,10 +68,8 @@ export class RegisterComponent {
       this.inSubmission = false;
       return
     }
-
     this.alertMsg = 'Success! Your account has been created';
     this.alertColor = 'green';
-
   }
 
 }
