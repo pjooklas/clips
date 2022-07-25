@@ -14,6 +14,10 @@ const routes: Routes = [
       authOnly: true
     }
   },
+  //senu linku redirektinimui, kad nemestu 404
+  { path: 'manage-clips',
+    redirectTo: 'manage'
+  },
 ];
 
 @NgModule({
